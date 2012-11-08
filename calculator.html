@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Assignment Jquery Calculator Plugin
+    </title>
+    <meta charset="windows-1252">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+     <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="jquery.qs.calculator.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="calculatorid"></div>
+    <script type="text/javascript">
+        $(function(){
+           $("#calculatorid").calculator({success:function(event,data){
+                   alert('this is call back for enter');
+           },clear:function(event,data){
+                   alert("this is call back for clear");
+           }}); 
+        });
+    </script>
+</body>
+</html>

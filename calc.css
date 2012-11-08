@@ -1,0 +1,37 @@
+#calculatorid{
+    width:376px;
+    border: 2px solid;
+}
+#calculatorid #outputField{
+    width: 95%;
+    margin-bottom:10px;
+    margin: 5px;
+    margin-top: 0px;
+    padding-right:5px;
+    height: 20px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+#calculatorid #outputExp{
+    width: 95%;
+    margin: 5px;
+    text-align: right;
+    padding-right:5px;
+    height: 20px;
+    margin-bottom: 0px;
+    border: none;
+    font-style: italic;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+#calculatorid input[type='button']{
+    margin: 5px;
+    padding: 10px;
+    width:65px;
+}
